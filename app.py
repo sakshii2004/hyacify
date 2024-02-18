@@ -56,6 +56,18 @@ def show_homepage():
 def report_location():
   return render_template('report.html')
 
+@app.route("/impact")
+def impact_testimonials():
+  return render_template('testimonials.html')
+
+@app.route("/contact-us")
+def contact_us():
+  return render_template('contact-us.html')
+
+@app.route("/about-us")
+def about_us():
+  return render_template('about.html')
+
 
 def allowed_file(filename):
   return '.' in filename and \
