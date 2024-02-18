@@ -353,3 +353,9 @@
   font-weight: 700;
   line-height: 150%;
 }
+
+.logo-img {
+  height: 50px;
+  width: auto;
+  margin-left: 20px;
+}
