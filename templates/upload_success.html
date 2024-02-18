@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Success</title>
+</head>
+<body>
+    <h1>File Uploaded Successfully!</h1>
+    <p>Filename: {{ filename }}</p>
+    <!-- Add any additional content or styling as needed -->
+    <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Uploaded Image">
+
+</body>
+</html>
